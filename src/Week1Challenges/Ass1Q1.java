@@ -3,7 +3,7 @@ package Week1Challenges;
 import java.util.Scanner;
 
 /*WAP to input width and height of a rectangle and calculate the area and perimeter.  
-[Area of rectangle: width*height, Perimeter of rectangle: 2*width+2*height]*/
+*/
 
 public class Ass1Q1 {
 
@@ -24,6 +24,7 @@ public class Ass1Q1 {
 
 		System.out.println("Enter Area Of Rectangle :- " + area);
 		System.out.println("Enter Primeter Area Of Rectangle :- " + perimeter);
+		scan.close();
 	}
 
 }
