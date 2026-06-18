@@ -67,9 +67,17 @@ public class IOExample4 {
 			System.out.println(ex.getMessage());
 		}
 		
+		catch(ClassNotFoundException  ex) {
+			System.out.println(ex.getMessage());
+		}
+		
+		
 		for(Student stud : studentsInfo) {
 			System.out.println(stud);
 		}
+		
+		ins.close();
+		fin.close();
 	}
 
 }
