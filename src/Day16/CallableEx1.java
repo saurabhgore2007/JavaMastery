@@ -5,7 +5,6 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
-import java.util.function.Consumer;
 
 public class CallableEx1 {
 
@@ -14,10 +13,11 @@ public class CallableEx1 {
 		ExecutorService service = Executors.newSingleThreadExecutor();
 		
 		Callable<Integer> task = () ->{
-			System.out.print("Calculating");
+			StringBuilder s = new StringBuilder("Calculating");
 			for(int i = 0;i<3;i++) {
 				Thread.sleep(400);
-				System.out.print(".");			
+				s.append(".");
+				System.out.println(s);
 			}
 			return 10 + 20;
 		};
@@ -26,13 +26,14 @@ public class CallableEx1 {
 
 		try {
 			Integer result = future.get();
-			System.out.println("\nResult is " + result);
+			System.out.println("Result is " + result);
 		}
 		catch(ExecutionException | InterruptedException ex) {
 			ex.printStackTrace();
 		}
-        service.shutdown();
-
+		finally {
+			service.shutdown();
+		}
 	}
 
 }
