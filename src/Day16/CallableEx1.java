@@ -13,11 +13,11 @@ public class CallableEx1 {
 		ExecutorService service = Executors.newSingleThreadExecutor();
 		
 		Callable<Integer> task = () ->{
-			StringBuilder s = new StringBuilder("Calculating");
+			StringBuilder sb = new StringBuilder("Calculating");
 			for(int i = 0;i<3;i++) {
 				Thread.sleep(400);
-				s.append(".");
-				System.out.println(s);
+				sb.append(".");
+				System.out.println(sb);
 			}
 			return 10 + 20;
 		};
