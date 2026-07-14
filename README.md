@@ -1,1 +1,1 @@
-# JavaMastery
+# CoreJavaMaster
