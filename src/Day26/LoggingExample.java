@@ -12,4 +12,5 @@ public class LoggingExample {
 		 logger.warning("Low Memory");
 		 logger.severe("Database Connection Failed");
 	}
+	
 }
