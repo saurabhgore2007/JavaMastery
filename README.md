@@ -104,7 +104,7 @@ src/
 ├── Day2
 ├── Day3
 ...
-├── Day27
+├── Day26
 └── Practice
 ```
 
@@ -139,11 +139,11 @@ Thank you for visiting this repository! ⭐
   <a href="https://www.linkedin.com/in/saurabh-gore-077769320?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
-
+  &emsp;&emsp;
   <a href="https://github.com/saurabhgore2007">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
-
+  &emsp;&emsp;
   <a href="mailto:saurabhgore44@gmail.com">
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
